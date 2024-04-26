@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f7ff; /* Azul claro */
+    color: #333; /* Negro */
+    margin: 0;
+    padding: 0;
+
+}
+
+#neuralNetworkForm {
+    background-color: #cfe8ff; /* Azul claro */
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    color: #005da6; /* Azul oscuro */
+    font-weight: bold;
+}
+
+input[type="number"] {
+    width: 50px;
+    padding: 5px;
+    border: 1px solid #005da6; /* Azul oscuro */
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #005da6; /* Azul oscuro */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #003366; /* Azul más oscuro */
+}
+
+h1 {
+    color: #005da6; /* Azul oscuro */
+}
+
+#entrada {
+    width: 200px;
+    padding: 5px;
+    border: 1px solid #005da6; /* Azul oscuro */
+    border-radius: 5px;
+}
+
+#mostrar {
+    padding: 8px 15px;
+    background-color: #005da6; /* Azul oscuro */
+    color: #fff; /* Blanco */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#mostrar:hover {
+    background-color: #003366; /* Azul más oscuro */
+}
+
+.mostrarDatos {
+    background-color: #cfe8ff; /* Azul claro */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
